@@ -1,0 +1,50 @@
+/*Establece el tamaño fuente de los REM (24 pixeles)*/
+html{
+    font-size: 24px;
+}
+
+/*El tamaño de letra cambia ( 16 pixeles)*/
+h1 {
+    font-size: 16px;
+}
+
+/*El tamaño de letra cambia ( 24 pixeles)*/
+h2 {
+    font-size: 1rem;
+}
+
+/*El tamaño de letra cambia ( 42 pixeles)*/
+h3 {
+    font-size: 1.75rem;
+}
+
+/*El tamaño de letra cambia ( 36 pixeles)*/
+h4 {
+    font-size: 1.5rem;
+}
+
+/*El tamaño de letra cambia ( 30 pixeles)*/
+h5 {
+    font-size: 1.25rem;
+}
+
+/*El tamaño de letra cambia ( 25.2 pixeles)*/
+h6{
+    font-size: 1.05rem;
+}
+
+/*Genera un cuadro color aqua que se adapta al ancho de la pantalla en un 70% y altura de 400 pixeles*/
+.contenedor {
+    width: 70%;
+    height: 400px;
+    background-color: aqua;
+    margin: 30px auto;
+}
+
+/*Genera un cuadro dentro de cuadro "contenedor" el cual ocupa un ancho del 70% respecto a la pantalla y una altura del 50% respecto a la pantalla*/
+.hijo {
+    width: 70vw;
+    height: 50vh;
+    background-color: blueviolet;
+    margin: 30px auto;
+}
